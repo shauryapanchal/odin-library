@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Odin-Library</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1 class="project-title">Odin-Library</h1>
+    </nav>
+    <main class="main-dashboard">
+        <div class="book-card-add">
+            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="book-card-image">
+            <path d="M4 12H20M12 4V20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+    </main>
+    <div class="form-screen">
+        <div class="book-details">
+            <div class="form-description">
+                <p class="form-title">Book Details</p>
+                <p class="close-form">&times;</p>
+            </div>
+            <form action="" id="form-input" method="post">
+                <label for="book-title">Title: <input type="text" id="book-title" name="title" required></label>
+                <label for="book-author">Author: <input type="text" id="book-author" name="author" required></label>
+                <label for="total-pages">Total Pages: <input type="number" id="total-pages" min="1"  name="total" required></label>
+                <label for="completed-pages">Completed Pages: <input type="number" id="completed-pages" min="1" name="completed" required></label>
+                <button type="submit" class="add-book-button">Add Book</button>
+            </form>
+        </div>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
